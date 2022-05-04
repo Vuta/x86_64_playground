@@ -72,7 +72,7 @@ read_input_file:
   cmpq $END_OF_FILE, %rax
   jle end_read
 
-  pushq %rax # 24(%ebp)
+  pushq %rax # 24(%rbp)
   pushq $BUFFER_DATA # 16(%rbp)
   call count_word # ret at 8(%rbp)
   addq $16, %rsp
