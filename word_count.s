@@ -6,7 +6,7 @@
   #   2) Loop through each character
   #   3) If the character is a space, newline, or tab
   #      - set state = OUT
-  #      - else
+  #      - else if state is OUT
   #        1) set state = IN
   #        2) increase count by one
 
