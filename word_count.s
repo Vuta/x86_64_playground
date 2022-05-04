@@ -28,7 +28,6 @@
 
   .section .data
 msg:
-  .ascii "hello world"
   .equ SYS_READ, 0
   .equ SYS_WRITE, 1
   .equ SYS_OPEN, 2
