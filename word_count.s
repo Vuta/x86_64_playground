@@ -27,7 +27,6 @@
   #    b) count from the buffer
 
   .section .data
-msg:
   .equ SYS_READ, 0
   .equ SYS_WRITE, 1
   .equ SYS_OPEN, 2
